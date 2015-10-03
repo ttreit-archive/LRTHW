@@ -33,6 +33,13 @@ def d_input(arg1)
 end
 =end
 
+
+
+### This section is broken
+### Try writing a simple function with if/else to troubleshoot
+
+
+
 def intro
 	puts "As you gain consciousness you blink and look around."
 	puts "You are lying on the rough surface of a dock."
