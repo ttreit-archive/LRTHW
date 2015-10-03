@@ -68,6 +68,7 @@ puts "--------------"
 five = 10 - 2 + 3 - 6
 puts "This should be five: #{five}"
 
+=begin
 def secret_formula(started)
   jelly_beans = started * 500
   jars = jelly_beans / 1000
@@ -83,18 +84,25 @@ start_point = 10000
 output = secret_formula(start_point)
 
 puts "With a starting point of: #{start_point}"
-puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
+puts "We'd have #{jelly_beans} beans, #{jars} jars, and #{crates} crates."
 
 start_point = start_point / 10
-
+=end
 mysentence = "All good things come to those who wait."
 mywords = Ex25.break_words(mysentence)
 mysorted_words = Ex25.sort_words(mywords)
+puts "Your sentence is: #{mysentence}"
+print "The first word of your sentence is "
 Ex25.print_first_word(mywords)
+print "the last word of your sentence is "
 Ex25.print_last_word (mywords)
+print "The first word alphabetically is "
 Ex25.print_first_word(mysorted_words)
+print "The last word alphabetically is "
 Ex25.print_last_word(mysorted_words)
 ### do we need the next line?
+=begin
 sorted_words = Ex25.sort_sentence(sentence)
 Ex25.print_first_and_last(sentence)
-Ex25:print_first_and_last_sorted(sentence)
+Ex25.print_first_and_last_sorted(sentence)
+=end
