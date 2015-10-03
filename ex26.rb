@@ -47,7 +47,7 @@ module Ex25
 end
 
 
-
+puts
 puts "Let's practice everything."
 puts 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
 
@@ -68,26 +68,33 @@ puts "--------------"
 five = 10 - 2 + 3 - 6
 puts "This should be five: #{five}"
 
-=begin
+puts " "
+### need to learn how to put in a proper newline \n 
+
 def secret_formula(started)
   jelly_beans = started * 500
   jars = jelly_beans / 1000
   crates = jars / 100
-  return jelly_beans, jars, crates
+  return jelly_beans, crates, jars
 end
 
 
 start_point = 10000
+puts " "
+jelly, crate, jarz = secret_formula(start_point)
 
-###??
-#beans, jars, crates = secret_formula(start_point)
-output = secret_formula(start_point)
+
+
 
 puts "With a starting point of: #{start_point}"
-puts "We'd have #{jelly_beans} beans, #{jars} jars, and #{crates} crates."
+puts "We'd have #{jelly} beans, #{jarz} jars, and #{crate} crates."
 
 start_point = start_point / 10
-=end
+
+
+### change here to allow user to input sentence
+### will need to change to lowercase to get sort to work properly
+
 mysentence = "All good things come to those who wait."
 mywords = Ex25.break_words(mysentence)
 mysorted_words = Ex25.sort_words(mywords)
