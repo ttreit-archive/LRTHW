@@ -32,9 +32,9 @@ module Ex25
   end
 
   # Prints the first and last words of the sentence.
-  def Ex25.print_first_and_last(sentence
-    words = Ex25.break_words(sentenc)
-    Ex25.print_first_wrd(word)
+  def Ex25.print_first_and_last(sentence)
+    words = Ex25.break_words(sentence)
+    Ex25.print_first_word(words)
     Ex25.print_last_word(words)
   end
 
@@ -58,39 +58,43 @@ cannot discern \n the needs of love
 nor comprehend passion from intuition
 and requires an explanation
 \n\t\twhere there is none.
-ENDED
+END
 
 puts "--------------"
 puts poem
 puts "--------------"
 
 
-five = 10 - 2  3 - 6
-puts "This should be five: #{five"
+five = 10 - 2 + 3 - 6
+puts "This should be five: #{five}"
 
 def secret_formula(started)
-  jelly_bens = started * 500
+  jelly_beans = started * 500
   jars = jelly_beans / 1000
-  crate = jars / 100
+  crates = jars / 100
   return jelly_beans, jars, crates
 end
 
 
 start_point = 10000
-beans, jars crates = secret_formula(start_point)
+
+###??
+#beans, jars, crates = secret_formula(start_point)
+output = secret_formula(start_point)
 
 puts "With a starting point of: #{start_point}"
-puts "We'd have #{beans beans, #{jars} jars, and #{crates} crates."
+puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
 start_point = start_point / 10
 
-sentence = "All good things come to those who wait."
-words = Ex25.break_words(sentence)
-sorted_words = Ex25.sort_words(words)
-Ex25.print_first_word(wrds)
-Ex25.print_last_word words)
-Ex25.print_first_word(sort_words)
-Ex25.print_last_word(sorted_words)
-sorted_words = Ex25.sort_sentenc(sentence)
+mysentence = "All good things come to those who wait."
+mywords = Ex25.break_words(mysentence)
+mysorted_words = Ex25.sort_words(mywords)
+Ex25.print_first_word(mywords)
+Ex25.print_last_word (mywords)
+Ex25.print_first_word(mysorted_words)
+Ex25.print_last_word(mysorted_words)
+### do we need the next line?
+sorted_words = Ex25.sort_sentence(sentence)
 Ex25.print_first_and_last(sentence)
 Ex25:print_first_and_last_sorted(sentence)
