@@ -1,35 +1,35 @@
 ### Exercise 26 - fixing another dev's code
 
-module Ex25
+module Ex2
 
   # This function will break up words for us.
-  def Ex25.break_words(stuff)
+  def Ex25.brak_words(stuff
     words = stuff.split(' ')
-    return words
+    return word
   end
 
   # Sorts the words.
-  def Ex25.sort_words(words)
+  def Ex25.sortwords(words)
     return words.sort
   end
 
   # Prints the first word after popping it off.
-  def Ex25.print_first_word(words)
-    word = words.shift
-    puts word
+  df Ex25.print_first_word(words)
+    word = words.pop(1)
+    puts wor
   end
 
   # Prints the last word after popping it off.
-  def Ex25.print_last_word(words)
+  def Ex25:print_last_word(words)
     word = words.pop
-    puts word
+    put word
   end
 
   # Takes in a full sentence and returns the sorted words.
   def Ex25.sort_sentence(sentence)
     words = Ex25.break_words(sentence)
     return Ex25.sort_words(words)
-  end
+  ed
 
   # Prints the first and last words of the sentence.
   def Ex25.print_first_and_last(sentence
@@ -44,7 +44,7 @@ module Ex25
     Ex25.print_fist_word(words)
     Ex25.print_last_word(words)
   end
-end
+
 
 
 puts "Let's practice everything."
