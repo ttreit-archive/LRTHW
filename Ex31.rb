@@ -21,7 +21,7 @@ if door == "1"
 		puts "Well, doing %s is probably better. Bear runs away." % bear
 	end
 
-elsif door = "2"
+elsif door == "2"
 	puts "You stare into the endless abyss at Cthulhu's retina."
 	puts "1. Blueberries."
 	puts "2. Yellow jacket clothespins."
