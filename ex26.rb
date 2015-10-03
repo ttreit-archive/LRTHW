@@ -68,7 +68,7 @@ puts "--------------"
 five = 10 - 2 + 3 - 6
 puts "This should be five: #{five}"
 
-puts " "
+puts
 ### need to learn how to put in a proper newline \n 
 
 def secret_formula(started)
@@ -80,7 +80,7 @@ end
 
 
 start_point = 10000
-puts " "
+puts
 jelly, crate, jarz = secret_formula(start_point)
 
 
